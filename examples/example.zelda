@@ -1,0 +1,11 @@
+LEFT  1000 [ this is a comment ]
+RIGHT 500  % this is also a comment
+NOTHING 100 
+r 55
+a 1300
+a 1003
+
+loop 5 % I'm a loop!
+    b 55
+    a 40
+end % Don't forget to end the loop!

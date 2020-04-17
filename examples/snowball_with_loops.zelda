@@ -1,0 +1,77 @@
+[ snowball.zelda -- grind rupees in 
+  Legend of Zelda: Breath of the Wild ]
+
+[ setup controller ]
+NOTHING 250
+TRIGGERS 5
+NOTHING 150
+TRIGGERS 5
+NOTHING 150
+A 5
+NOTHING 250
+
+[ Talk to Pondo ]
+A 5
+NOTHING 30
+B 5
+NOTHING 20
+A 5
+NOTHING 15
+B 5
+NOTHING 20
+A 5
+NOTHING 15
+B 5
+NOTHING 29
+A 5
+NOTHING 325
+B 5
+NOTHING 20
+A 5
+NOTHING 50
+B 5
+NOTHING 20
+A 5
+NOTHING 15
+B 5
+NOTHING 20
+A 5
+NOTHING 100
+A 5
+NOTHING 200
+
+[ Pick up snowball ]
+A 5
+NOTHING 50
+LEFT 42
+UP 80
+THROW 25
+
+[ Non-strike throw, cancel and restart ]
+NOTHING 30
+B 5
+NOTHING 20
+B 5
+NOTHING 15
+B 5
+NOTHING 20
+B 5 
+NOTHING 450
+B 5
+NOTHING 20
+B 5
+NOTHING 20
+DOWN 10
+NOTHING 20
+A 5
+NOTHING 50
+UP 10 
+THROW 25
+
+[ Back to main flow ]
+NOTHING 175
+
+loop 36
+    B 5 
+    NOTHING 20
+end 
