@@ -21,6 +21,10 @@ I've included a tutorial file (TUTORIAL.md), so you can see how Zelduino works.
 
 ## Installing
 
+- run `git clone --recursive https://github.com/Ninjacop/zelduino.git`, to clone the repository and LUFA submodule.
+
+## Running Zelduino
+
 - Compile `zelduino.cpp` by executing `make zelduino` at the top level of the repository.
 
 - Create a script to hold all the instructions.
