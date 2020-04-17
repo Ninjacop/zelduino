@@ -3,7 +3,7 @@ CFLAGS := -std=c++17
 FILES := zelduino.cpp
 OUTPUT := zelduino
 
-zelda: 
+zelduino: 
 	$(CC) $(FILES) $(CFLAGS) -o $(OUTPUT)
 
 clean: 
